@@ -18,37 +18,37 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="page-header">
-      <div class="header-container container">
-        <nav class="header-nav">
-          <a href="./index.html" class="logo link logo-nav"
-            ><span class="logo-web">Web</span>Studio</a
+    <header class="header">
+      <div class="header__container container">
+        <nav class="header__nav">
+          <a href="./index.html" class="logo link logo__nav"
+            ><span class="logo__web">Web</span>Studio</a
           >
-          <ul class="list site-nav">
-            <li class="nav-item">
-              <a href="./index.html" class="nav-link link link-current"
+          <ul class="list nav">
+            <li class="nav__item">
+              <a href="./index.html" class="nav__link link nav__link--current"
                 >Студія</a
               >
             </li>
-            <li class="nav-item">
-              <a href="./portfolio.html" class="nav-link link">Портфоліо</a>
+            <li class="nav__item">
+              <a href="./portfolio.html" class="nav__link link">Портфоліо</a>
             </li>
-            <li class="nav-item">
-              <a href="" class="nav-link link">Контакти</a>
+            <li class="nav__item">
+              <a href="" class="nav__link link">Контакти</a>
             </li>
           </ul>
         </nav>
-        <ul class="list nav-list">
+        <ul class="list nav__list">
           <li>
-            <a href="mailto:info@devstudio.com" class="auth-link link mail-link"
-              ><svg class="auth-icon" width="16" height="12">
+            <a href="mailto:info@devstudio.com" class="auth__link link"
+              ><svg class="auth__icon" width="16" height="12">
                 <use href="./imeg/icons.svg#icon-mail"></use></svg
               >info@devstudio.com</a
             >
           </li>
           <li>
-            <a href="tel:+380961111111" class="auth-link link phone-link"
-              ><svg class="auth-icon" width="10" height="16">
+            <a href="tel:+380961111111" class="auth__link link"
+              ><svg class="auth__icon" width="10" height="16">
                 <use href="./imeg/icons.svg#icon-smartphone"></use></svg
               >+38 096 111 11 11
             </a>
@@ -58,9 +58,9 @@
     </header>
     <main>
       <section class="hero section">
-        <div class="container overlay">
-          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-          <button type="button" class="hero-button" data-modal-open>
+        <div class="container">
+          <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
+          <button type="button" class="hero__button" data-modal-open>
             Замовити послугу
           </button>
         </div>
@@ -68,50 +68,50 @@
       <section class="preference section">
         <div class="container">
           <h2 class="visually-hidden">Наші переваги</h2>
-          <ul class="preference-list list">
-            <li class="item-li anten">
-              <div class="preference-icon">
+          <ul class="preference__list list">
+            <li class="">
+              <div class="preference__icon">
                 <svg width="70" height="70">
                   <use href="./imeg/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
-              <h3 class="preference-subtitle">УВАГА ДО ДЕТАЛЕЙ</h3>
-              <p class="preference-text">
+              <h3 class="preference__subtitle">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p class="preference__text">
                 Ідейні міркування, і навіть початок повсякденної роботи з
                 формування позиції.
               </p>
             </li>
-            <li class="item-li clock">
-              <div class="preference-icon">
+            <li class="">
+              <div class="preference__icon">
                 <svg width="70" height="70">
                   <use href="./imeg/icons.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h3 class="preference-subtitle">ПУНКТУАЛЬНІСТЬ</h3>
-              <p class="preference-text">
+              <h3 class="preference__subtitle">ПУНКТУАЛЬНІСТЬ</h3>
+              <p class="preference__text">
                 Завдання організації, особливо рамки і місце навчання кадрів
                 тягне у себе.
               </p>
             </li>
-            <li class="item-li diagram">
-              <div class="preference-icon">
+            <li class="">
+              <div class="preference__icon">
                 <svg width="70" height="70">
                   <use href="./imeg/icons.svg#icon-diagram"></use>
                 </svg>
               </div>
-              <h3 class="preference-subtitle">ПЛАНУВАННЯ</h3>
-              <p class="preference-text">
+              <h3 class="preference__subtitle">ПЛАНУВАННЯ</h3>
+              <p class="preference__text">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li class="item-li astron">
-              <div class="preference-icon">
+            <li class="">
+              <div class="preference__icon">
                 <svg width="70" height="70">
                   <use href="./imeg/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h3 class="preference-subtitle">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-              <p class="preference-text">
+              <h3 class="preference__subtitle">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p class="preference__text">
                 Значимість цих проблем настільки очевидна, що реалізація
                 планових завдань.
               </p>
@@ -121,10 +121,10 @@
       </section>
       <section class="activity section">
         <div class="container">
-          <h2 class="section-title">Чим ми займаємося</h2>
-          <ul class="activity-list list">
+          <h2 class="activity__title">Чим ми займаємося</h2>
+          <ul class="activity__list list">
             <li>
-              <div class="activity-thumb">
+              <div class="activity__thumb">
                 <img
                   class="imeg"
                   src="./imeg/img1.jpg"
@@ -132,11 +132,11 @@
                   width="370"
                   height="294"
                 />
-                <h3 class="activity-text">Десктопні додатки</h3>
+                <h3 class="activity__text">Десктопні додатки</h3>
               </div>
             </li>
             <li>
-              <div class="activity-thumb">
+              <div class="activity__thumb">
                 <img
                   class="imeg"
                   src="./imeg/img2.jpg"
@@ -144,11 +144,11 @@
                   width="370"
                   height="294"
                 />
-                <h3 class="activity-text">Мобільні додатки</h3>
+                <h3 class="activity__text">Мобільні додатки</h3>
               </div>
             </li>
             <li>
-              <div class="activity-thumb">
+              <div class="activity__thumb">
                 <img
                   class="imeg"
                   src="./imeg/img3.jpg"
@@ -156,7 +156,7 @@
                   width="370"
                   height="294"
                 />
-                <h3 class="activity-text">Дизайнерські рішення</h3>
+                <h3 class="activity__text">Дизайнерські рішення</h3>
               </div>
             </li>
           </ul>
@@ -164,9 +164,9 @@
       </section>
       <section class="team section">
         <div class="container">
-          <h2 class="section-title">Наша команда</h2>
-          <ul class="team-list list">
-            <li class="team-card">
+          <h2 class="team__title">Наша команда</h2>
+          <ul class="team__list list">
+            <li class="team__card">
               <img
                 src="./imeg/imeg_men1.jpg"
                 alt="один з членів команди"
@@ -174,38 +174,38 @@
                 height="260"
                 class="imeg"
               />
-              <div class="team-p">
-                <h3 class="team-subtitle">Ігор Дем'яненко</h3>
-                <p class="team-text">Product Designer</p>
-                <ul class="team-people list">
-                  <li class="team-web">
-                    <a href="" class="team-link"
-                      ><svg class="team-icon-link" width="20" height="20">
+              <div class="team__p">
+                <h3 class="team__subtitle">Ігор Дем'яненко</h3>
+                <p class="team__text">Product Designer</p>
+                <ul class="team__people list">
+                  <li class="team__web">
+                    <a href="" class="team__link"
+                      ><svg class="team__icon" width="20" height="20">
                         <use href="./imeg/icons.svg#icon-instagram"></use></svg
                     ></a>
                   </li>
                   <li class="team-web">
-                    <a href="" class="team-link"
-                      ><svg class="team-icon-link" width="20" height="20">
+                    <a href="" class="team__link"
+                      ><svg class="team__icon" width="20" height="20">
                         <use href="./imeg/icons.svg#icon-twitter"></use></svg
                     ></a>
                   </li>
                   <li class="team-web">
-                    <a href="" class="team-link"
-                      ><svg class="team-icon-link" width="20" height="20">
+                    <a href="" class="team__link"
+                      ><svg class="team__icon" width="20" height="20">
                         <use href="./imeg/icons.svg#icon-facebook"></use></svg
                     ></a>
                   </li>
                   <li class="team-web">
-                    <a href="" class="team-link"
-                      ><svg class="team-icon-link" width="20" height="20">
+                    <a href="" class="team__link"
+                      ><svg class="team__icon" width="20" height="20">
                         <use href="./imeg/icons.svg#icon-linkedin"></use></svg
                     ></a>
                   </li>
                 </ul>
               </div>
             </li>
-            <li class="team-card">
+            <li class="team__card">
               <img
                 src="./imeg/imeg_women.jpg"
                 alt="один з членів команди"
@@ -213,38 +213,38 @@
                 height="260"
                 class="imeg"
               />
-              <div class="team-p">
-                <h3 class="team-subtitle">Ольга Рєпіна</h3>
-                <p class="team-text">Frontend Developer</p>
-                <ul class="team-people list">
-                  <li class="team-web">
-                    <a href="" class="team-link"
-                      ><svg class="team-icon-link" width="20" height="20">
+              <div class="team__p">
+                <h3 class="team__subtitle">Ольга Рєпіна</h3>
+                <p class="team__text">Frontend Developer</p>
+                <ul class="team__people list">
+                  <li class="team__web">
+                    <a href="" class="team__link"
+                      ><svg class="team__icon" width="20" height="20">
                         <use href="./imeg/icons.svg#icon-instagram"></use></svg
                     ></a>
                   </li>
-                  <li class="team-web">
-                    <a href="" class="team-link"
-                      ><svg class="team-icon-link" width="20" height="20">
+                  <li class="team__web">
+                    <a href="" class="team__link"
+                      ><svg class="team__icon" width="20" height="20">
                         <use href="./imeg/icons.svg#icon-twitter"></use></svg
                     ></a>
                   </li>
-                  <li class="team-web">
-                    <a href="" class="team-link"
-                      ><svg class="team-icon-link" width="20" height="20">
+                  <li class="team__web">
+                    <a href="" class="team__link"
+                      ><svg class="team__icon" width="20" height="20">
                         <use href="./imeg/icons.svg#icon-facebook"></use></svg
                     ></a>
                   </li>
-                  <li class="team-web">
-                    <a href="" class="team-link"
-                      ><svg class="team-icon-link" width="20" height="20">
+                  <li class="team__web">
+                    <a href="" class="team__link"
+                      ><svg class="team__icon" width="20" height="20">
                         <use href="./imeg/icons.svg#icon-linkedin"></use></svg
                     ></a>
                   </li>
                 </ul>
               </div>
             </li>
-            <li class="team-card">
+            <li class="team__card">
               <img
                 src="./imeg/imeg_men2.jpg"
                 alt="один з членів команди"
@@ -252,38 +252,38 @@
                 height="260"
                 class="imeg"
               />
-              <div class="team-p">
-                <h3 class="team-subtitle">Микола Тарасов</h3>
-                <p class="team-text">Marketing</p>
-                <ul class="team-people list">
-                  <li class="team-web">
-                    <a href="" class="team-link"
-                      ><svg class="team-icon-link" width="20" height="20">
+              <div class="team__p">
+                <h3 class="team__subtitle">Микола Тарасов</h3>
+                <p class="team__text">Marketing</p>
+                <ul class="team__people list">
+                  <li class="team__web">
+                    <a href="" class="team__link"
+                      ><svg class="team__icon" width="20" height="20">
                         <use href="./imeg/icons.svg#icon-instagram"></use></svg
                     ></a>
                   </li>
-                  <li class="team-web">
-                    <a href="" class="team-link"
-                      ><svg class="team-icon-link" width="20" height="20">
+                  <li class="team__web">
+                    <a href="" class="team__link"
+                      ><svg class="team__icon" width="20" height="20">
                         <use href="./imeg/icons.svg#icon-twitter"></use></svg
                     ></a>
                   </li>
-                  <li class="team-web">
-                    <a href="" class="team-link"
-                      ><svg class="team-icon-link" width="20" height="20">
+                  <li class="team__web">
+                    <a href="" class="team__link"
+                      ><svg class="team__icon" width="20" height="20">
                         <use href="./imeg/icons.svg#icon-facebook"></use></svg
                     ></a>
                   </li>
-                  <li class="team-web">
-                    <a href="" class="team-link"
-                      ><svg class="team-icon-link" width="20" height="20">
+                  <li class="team__web">
+                    <a href="" class="team__link"
+                      ><svg class="team__icon" width="20" height="20">
                         <use href="./imeg/icons.svg#icon-linkedin"></use></svg
                     ></a>
                   </li>
                 </ul>
               </div>
             </li>
-            <li class="team-card">
+            <li class="team__card">
               <img
                 src="./imeg/imeg_men3.jpg"
                 alt="один з членів команди"
@@ -291,31 +291,31 @@
                 height="260"
                 class="imeg"
               />
-              <div class="team-p">
-                <h3 class="team-subtitle">Михайло Єрмаков</h3>
-                <p class="team-text">UI Designer</p>
-                <ul class="team-people list">
-                  <li class="team-web">
-                    <a href="" class="team-link"
-                      ><svg class="team-icon-link" width="20" height="20">
+              <div class="team__p">
+                <h3 class="team__subtitle">Михайло Єрмаков</h3>
+                <p class="team__text">UI Designer</p>
+                <ul class="team__people list">
+                  <li class="team__web">
+                    <a href="" class="team__link"
+                      ><svg class="team__icon" width="20" height="20">
                         <use href="./imeg/icons.svg#icon-instagram"></use></svg
                     ></a>
                   </li>
-                  <li class="team-web">
-                    <a href="" class="team-link"
-                      ><svg class="team-icon-link" width="20" height="20">
+                  <li class="team__web">
+                    <a href="" class="team__link"
+                      ><svg class="team__icon" width="20" height="20">
                         <use href="./imeg/icons.svg#icon-twitter"></use></svg
                     ></a>
                   </li>
-                  <li class="team-web">
-                    <a href="" class="team-link"
-                      ><svg class="team-icon-link" width="20" height="20">
+                  <li class="team__web">
+                    <a href="" class="team__link"
+                      ><svg class="team__icon" width="20" height="20">
                         <use href="./imeg/icons.svg#icon-facebook"></use></svg
                     ></a>
                   </li>
-                  <li class="team-web">
-                    <a href="" class="team-link"
-                      ><svg class="team-icon-link" width="20" height="20">
+                  <li class="team__web">
+                    <a href="" class="team__link"
+                      ><svg class="team__icon" width="20" height="20">
                         <use href="./imeg/icons.svg#icon-linkedin"></use></svg
                     ></a>
                   </li>
@@ -327,41 +327,41 @@
       </section>
       <section class="clients section">
         <div class="container">
-          <h2 class="section-title">Постійні клієнти</h2>
-          <ul class="clients-list list">
-            <li class="clients-item">
-              <a class="clients-link" href=""
-                ><svg class="clients-icon" width="106" height="60">
+          <h2 class="clients__title">Постійні клієнти</h2>
+          <ul class="clients__list list">
+            <li class="clients__item">
+              <a class="clients__link" href=""
+                ><svg class="clients__icon" width="106" height="60">
                   <use href="./imeg/icons.svg#icon-Logo1"></use></svg
               ></a>
             </li>
-            <li class="clients-item">
-              <a class="clients-link" href=""
-                ><svg class="clients-icon" width="106" height="60">
+            <li class="clients__item">
+              <a class="clients__link" href=""
+                ><svg class="clients__icon" width="106" height="60">
                   <use href="./imeg/icons.svg#icon-Logo2"></use></svg
               ></a>
             </li>
-            <li class="clients-item">
-              <a class="clients-link" href=""
-                ><svg class="clients-icon" width="106" height="60">
+            <li class="clients__item">
+              <a class="clients__link" href=""
+                ><svg class="clients__icon" width="106" height="60">
                   <use href="./imeg/icons.svg#icon-Logo3"></use></svg
               ></a>
             </li>
-            <li class="clients-item">
-              <a class="clients-link" href=""
-                ><svg class="clients-icon" width="106" height="60">
+            <li class="clients__item">
+              <a class="clients__link" href=""
+                ><svg class="clients__icon" width="106" height="60">
                   <use href="./imeg/icons.svg#icon-Logo4"></use></svg
               ></a>
             </li>
-            <li class="clients-item">
-              <a class="clients-link" href=""
-                ><svg class="clients-icon" width="106" height="60">
+            <li class="clients__item">
+              <a class="clients__link" href=""
+                ><svg class="clients__icon" width="106" height="60">
                   <use href="./imeg/icons.svg#icon-Logo5"></use></svg
               ></a>
             </li>
-            <li class="clients-item">
-              <a class="clients-link" href=""
-                ><svg class="clients-icon" width="106" height="60">
+            <li class="clients__item">
+              <a class="clients__link" href=""
+                ><svg class="clients__icon" width="106" height="60">
                   <use href="./imeg/icons.svg#icon-Logo6"></use></svg
               ></a>
             </li>
@@ -370,14 +370,14 @@
       </section>
     </main>
     <footer class="cellar">
-      <div class="container web-down">
+      <div class="container web__down">
         <div>
-          <a href="./index.html" class="logo link logo-cellar"
-            ><span class="logo-web">Web</span>Studio</a
+          <a href="./index.html" class="logo link logo__cellar"
+            ><span class="logo__web">Web</span>Studio</a
           >
           <address>
             <ul class="list">
-              <li class="adress-list">
+              <li class="adress__list">
                 <a
                   href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
                   target="_blank"
@@ -386,60 +386,60 @@
                   >м. Київ, пр-т Лесі Українки, 26</a
                 >
               </li>
-              <li class="adress-list">
-                <a href="mailto:info@devstudio.com" class="adress-link link"
+              <li class="adress__list">
+                <a href="mailto:info@devstudio.com" class="adress__link link"
                   >info@devstudio.com</a
                 >
               </li>
-              <li class="adress-list">
-                <a href="tel:+380961111111" class="adress-link link"
+              <li class="adress__list">
+                <a href="tel:+380961111111" class="adress__link link"
                   >+38 096 111 11 11</a
                 >
               </li>
             </ul>
           </address>
         </div>
-        <div class="cellar-foot">
-          <p class="cellar-title">приєднуйтесь</p>
-          <ul class="team-people list foot">
-            <li class="team-web foot">
-              <a href="" class="team-link foot"
-                ><svg class="team-icon-link foot" width="20" height="20">
+        <div class="cellar__foot">
+          <p class="cellar__title">приєднуйтесь</p>
+          <ul class="team__people list foot">
+            <li class="team__web foot">
+              <a href="" class="team__link foot"
+                ><svg class="team__icon foot" width="20" height="20">
                   <use href="./imeg/icons.svg#icon-instagram"></use></svg
               ></a>
             </li>
-            <li class="team-web foot">
-              <a href="" class="team-link foot"
-                ><svg class="team-icon-link foot" width="20" height="20">
+            <li class="team__web foot">
+              <a href="" class="team__link foot"
+                ><svg class="team__icon foot" width="20" height="20">
                   <use href="./imeg/icons.svg#icon-twitter"></use></svg
               ></a>
             </li>
-            <li class="team-web foot">
-              <a href="" class="team-link foot"
-                ><svg class="team-icon-link foot" width="20" height="20">
+            <li class="team__web foot">
+              <a href="" class="team__link foot"
+                ><svg class="team__icon foot" width="20" height="20">
                   <use href="./imeg/icons.svg#icon-facebook"></use></svg
               ></a>
             </li>
-            <li class="team-web foot">
-              <a href="" class="team-link foot"
-                ><svg class="team-icon-link foot" width="20" height="20">
+            <li class="team__web foot">
+              <a href="" class="team__link foot"
+                ><svg class="team__icon foot" width="20" height="20">
                   <use href="./imeg/icons.svg#icon-linkedin"></use></svg
               ></a>
             </li>
           </ul>
         </div>
         <div>
-          <h2 class="footer-form">Підпишіться на розсилку</h2>
-          <form class="footer-cellar" name="footer-form-contact">
-            <label class="footer-label"
+          <h2 class="footer__form">Підпишіться на розсилку</h2>
+          <form class="footer__cellar" name="footer-form-contact">
+            <label class="footer__label"
               ><input
-                class="footer-input"
+                class="footer__input"
                 type="email"
                 name="footer-form"
                 placeholder="E-mail"
             /></label>
-            <button type="submit" class="footer-form-btn hero-button">
-              Підписатися<svg class="form-icon-btn" width="24" height="24">
+            <button type="submit" class="hero__button">
+              Підписатися<svg class="form__icon__btn" width="24" height="24">
                 <use href="./imeg/icons.svg#icon-icon-send"></use>
               </svg>
             </button>
@@ -449,74 +449,74 @@
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button type="button" class="modal-close-button" data-modal-close>
-          <svg class="modal-close-icon" width="30" height="30">
+        <button type="button" class="modal__button" data-modal-close>
+          <svg width="30" height="30">
             <use href="./imeg/icons.svg#icon-close-button"></use>
           </svg>
         </button>
-        <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
-        <form name="contact-form">
-          <label class="form-label" for="person-name"
-            >Ім'я<span class="form-control">
+        <h2 class="modal__title">Залиште свої дані, ми вам передзвонимо</h2>
+        <form class="form" name="contact-form">
+          <label class="form__label" for="person-name"
+            >Ім'я<span class="form__control">
               <input
                 id="person-name"
-                class="form-input"
+                class="form__input"
                 type="text"
                 name="person-name"
               />
-              <svg class="form-icon" width="18" height="18">
+              <svg class="form__icon" width="18" height="18">
                 <use href="./imeg/icons.svg#icon-person-black-18dp-1"></use>
               </svg> </span
           ></label>
 
-          <label class="form-label" for="person-phone"
-            >Телефон<span class="form-control">
+          <label class="form__label" for="person-phone"
+            >Телефон<span class="form__control">
               <input
                 id="person-phone"
-                class="form-input"
+                class="form__input"
                 type="tel"
                 name="person-phone"
               />
-              <svg class="form-icon" width="18" height="18">
+              <svg class="form__icon" width="18" height="18">
                 <use href="./imeg/icons.svg#icon-phone-black-18dp-1"></use>
               </svg> </span
           ></label>
 
-          <label class="form-label" for="person-mail"
-            >Пошта<span class="form-control">
+          <label class="form__label" for="person-mail"
+            >Пошта<span class="form__control">
               <input
                 id="person-mail"
-                class="form-input"
+                class="form__input"
                 type="email"
                 name="person-mail"
               />
-              <svg class="form-icon" width="18" height="18">
+              <svg class="form__icon" width="18" height="18">
                 <use href="./imeg/icons.svg#icon-email-black-18dp-1"></use>
               </svg> </span
           ></label>
 
-          <label class="form-label" for="person-comment"
+          <label class="form__label" for="person-comment"
             >Коментар<textarea
-              class="form-textarea"
+              class="form__textarea"
               id="person-comment"
               name="person-comment"
               placeholder="Введіть текст"
             ></textarea>
           </label>
 
-          <label for="terms-checkbox" class="checkbox-label"
+          <label for="terms-checkbox" class="checkbox__label"
             ><input
               id="terms-checkbox"
-              class="checkbox-input visually-hidden"
+              class="checkbox__input visually-hidden"
               type="checkbox"
               name="terms-checkbox"
-            /><span class="form-box"
+            /><span class="form__box"
               ><svg width="11" height="8">
                 <use href="./imeg/icons.svg#icon-icon-check"></use></svg></span
-            >Погоджуюся з розсилкою та приймаю <a href="#" class="terms-link">Умови договору</a>
+            >Погоджуюся з розсилкою та приймаю <a href="#" class="terms__link">Умови договору</a>
           </label>
 
-          <button type="submit" class="hero-button">Відправити</button>
+          <button type="submit" class="hero__button">Відправити</button>
         </form>
       </div>
     </div>

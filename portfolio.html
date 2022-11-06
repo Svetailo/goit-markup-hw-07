@@ -18,40 +18,40 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="page-header">
-      <div class="header-container container">
-        <nav class="header-nav">
-          <a href="./index.html" class="logo link logo-nav"
-            ><span class="logo-web">Web</span>Studio</a
+    <header class="header">
+      <div class="header__container container">
+        <nav class="header__nav">
+          <a href="./index.html" class="logo link logo__nav"
+            ><span class="logo__web">Web</span>Studio</a
           >
-          <ul class="list site-nav">
-            <li class="nav-item">
-              <a href="./index.html" class="nav-link link">Студія</a>
-            </li>
-            <li class="nav-item">
-              <a href="./portfolio.html" class="nav-link link link-current"
-                >Портфоліо</a
+          <ul class="list nav">
+            <li class="nav__item">
+              <a href="./index.html" class="nav__link link"
+                >Студія</a
               >
             </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link link">Контакти</a>
+            <li class="nav__item">
+              <a href="./portfolio.html" class="nav__link link nav__link--current">Портфоліо</a>
+            </li>
+            <li class="nav__item">
+              <a href="" class="nav__link link">Контакти</a>
             </li>
           </ul>
         </nav>
-        <ul class="list nav-list">
+        <ul class="list nav__list">
           <li>
-            <a href="mailto:info@devstudio.com" class="auth-link link mail-link"
-              ><svg class="auth-icon" width="16" height="12">
+            <a href="mailto:info@devstudio.com" class="auth__link link"
+              ><svg class="auth__icon" width="16" height="12">
                 <use href="./imeg/icons.svg#icon-mail"></use></svg
               >info@devstudio.com</a
             >
           </li>
           <li>
-            <a href="tel:+380961111111" class="auth-link link phone-link"
-              ><svg class="auth-icon" width="10" height="16">
+            <a href="tel:+380961111111" class="auth__link link"
+              ><svg class="auth__icon" width="10" height="16">
                 <use href="./imeg/icons.svg#icon-smartphone"></use></svg
-              >+38 096 111 11 11</a
-            >
+              >+38 096 111 11 11
+            </a>
           </li>
         </ul>
       </div>
@@ -60,26 +60,26 @@
       <section class="portfolio">
         <div class="section">
           <h1 class="visually-hidden">Портфоліо</h1>
-          <ul class="list portfolio-btn">
-            <li><button type="button" class="button-portfolio">Усі</button></li>
+          <ul class="list portfolio__btn">
+            <li><button type="button" class="portfolio__button">Усі</button></li>
             <li>
-              <button type="button" class="button-portfolio">Веб-сайти</button>
+              <button type="button" class="portfolio__button">Веб-сайти</button>
             </li>
             <li>
-              <button type="button" class="button-portfolio">Додатки</button>
+              <button type="button" class="portfolio__button">Додатки</button>
             </li>
             <li>
-              <button type="button" class="button-portfolio">Дизайн</button>
+              <button type="button" class="portfolio__button">Дизайн</button>
             </li>
             <li>
-              <button type="button" class="button-portfolio">Маркетинг</button>
+              <button type="button" class="portfolio__button">Маркетинг</button>
             </li>
           </ul>
 
-          <ul class="list portfolio-list">
-            <li class="element-portfolio">
-              <a href="#" class="portfolio-link link"
-                ><div class="portfolio-description">
+          <ul class="list portfolio__list">
+            <li class="portfolio__element">
+              <a href="#" class="portfolio__link link"
+                ><div class="portfolio__description">
                   <img
                     src="./imeg/image-portfolio/img1.jpg"
                     alt="ноутбук"
@@ -87,21 +87,21 @@
                     height="294"
                     class="imeg"
                   />
-                  <p class="card-text">
+                  <p class="card__text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
-                <div class="portfolio-content">
-                  <h2 class="portfolio-subtitle">Технокряк</h2>
-                  <p class="portfolio-text">Веб-сайт</p>
+                <div class="portfolio__content">
+                  <h2 class="portfolio__subtitle">Технокряк</h2>
+                  <p class="portfolio__text">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="element-portfolio">
-              <a href="#" class="portfolio-link link"
-                ><div class="portfolio-description">
+            <li class="portfolio__element">
+              <a href="#" class="portfolio__link link"
+                ><div class="portfolio__description">
                   <img
                     src="./imeg/image-portfolio/img2.jpg"
                     alt="гра у баскетбол"
@@ -109,23 +109,23 @@
                     height="294"
                     class="imeg"
                   />
-                  <p class="card-text">
+                  <p class="card__text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
-                <div class="portfolio-content">
-                  <h2 class="portfolio-subtitle">
+                <div class="portfolio__content">
+                  <h2 class="portfolio__subtitle">
                     Постер New Orlean vs Golden Star
                   </h2>
-                  <p class="portfolio-text">Дизайн</p>
+                  <p class="portfolio__text">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="element-portfolio">
-              <a href="#" class="portfolio-link link"
-                ><div class="portfolio-description">
+            <li class="portfolio__element">
+              <a href="#" class="portfolio__link link"
+                ><div class="portfolio__description">
                   <img
                     src="./imeg/image-portfolio/img3.jpg"
                     alt="логотип ресторану"
@@ -133,21 +133,21 @@
                     height="294"
                     class="imeg"
                   />
-                  <p class="card-text">
+                  <p class="card__text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
-                <div class="portfolio-content">
-                  <h2 class="portfolio-subtitle">Ресторан Seafood</h2>
-                  <p class="portfolio-text">Додаток</p>
+                <div class="portfolio__content">
+                  <h2 class="portfolio__subtitle">Ресторан Seafood</h2>
+                  <p class="portfolio__text">Додаток</p>
                 </div>
               </a>
             </li>
-            <li class="element-portfolio">
-              <a href="#" class="portfolio-link link"
-                ><div class="portfolio-description">
+            <li class="portfolio__element">
+              <a href="#" class="portfolio__link link"
+                ><div class="portfolio__description">
                   <img
                     src="./imeg/image-portfolio/img4.jpg"
                     alt="навушники"
@@ -155,21 +155,21 @@
                     height="294"
                     class="imeg"
                   />
-                  <p class="card-text">
+                  <p class="card__text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
-                <div class="portfolio-content">
-                  <h2 class="portfolio-subtitle">Проєкт Prime</h2>
-                  <p class="portfolio-text">Маркетинг</p>
+                <div class="portfolio__content">
+                  <h2 class="portfolio__subtitle">Проєкт Prime</h2>
+                  <p class="portfolio__text">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="element-portfolio">
-              <a href="#" class="portfolio-link link"
-                ><div class="portfolio-description">
+            <li class="portfolio__element">
+              <a href="#" class="portfolio__link link"
+                ><div class="portfolio__description">
                   <img
                     src="./imeg/image-portfolio/img5.jpg"
                     alt="дві коробочки"
@@ -177,21 +177,21 @@
                     height="294"
                     class="imeg"
                   />
-                  <p class="card-text">
+                  <p class="card__text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
-                <div class="portfolio-content">
-                  <h2 class="portfolio-subtitle">Проєкт Boxes</h2>
-                  <p class="portfolio-text">Додаток</p>
+                <div class="portfolio__content">
+                  <h2 class="portfolio__subtitle">Проєкт Boxes</h2>
+                  <p class="portfolio__text">Додаток</p>
                 </div>
               </a>
             </li>
-            <li class="element-portfolio">
-              <a href="#" class="portfolio-link link"
-                ><div class="portfolio-description">
+            <li class="portfolio__element">
+              <a href="#" class="portfolio__link link"
+                ><div class="portfolio__description">
                   <img
                     src="./imeg/image-portfolio/img6.jpg"
                     alt="монітор"
@@ -199,21 +199,21 @@
                     height="294"
                     class="imeg"
                   />
-                  <p class="card-text">
+                  <p class="card__text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
-                <div class="portfolio-content">
-                  <h2 class="portfolio-subtitle">Inspiration has no Borders</h2>
-                  <p class="portfolio-text">Веб-сайт</p>
+                <div class="portfolio__content">
+                  <h2 class="portfolio__subtitle">Inspiration has no Borders</h2>
+                  <p class="portfolio__text">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="element-portfolio">
-              <a href="#" class="portfolio-link link"
-                ><div class="portfolio-description">
+            <li class="portfolio__element">
+              <a href="#" class="portfolio__link link"
+                ><div class="portfolio__description">
                   <img
                     src="./imeg/image-portfolio/img7.jpg"
                     alt="розгорнута книга"
@@ -221,21 +221,21 @@
                     height="294"
                     class="imeg"
                   />
-                  <p class="card-text">
+                  <p class="card__text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
-                <div class="portfolio-content">
-                  <h2 class="portfolio-subtitle">Видання Limited Edition</h2>
-                  <p class="portfolio-text">Дизайн</p>
+                <div class="portfolio__content">
+                  <h2 class="portfolio__subtitle">Видання Limited Edition</h2>
+                  <p class="portfolio__text">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="element-portfolio">
-              <a href="#" class="portfolio-link link"
-                ><div class="portfolio-description">
+            <li class="portfolio__element">
+              <a href="#" class="portfolio__link link"
+                ><div class="portfolio__description">
                   <img
                     src="./imeg/image-portfolio/img8.jpg"
                     alt="етикетка"
@@ -243,21 +243,21 @@
                     height="294"
                     class="imeg"
                   />
-                  <p class="card-text">
+                  <p class="card__text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
-                <div class="portfolio-content">
-                  <h2 class="portfolio-subtitle">Проєкт LAB</h2>
-                  <p class="portfolio-text">Маркетинг</p>
+                <div class="portfolio__content">
+                  <h2 class="portfolio__subtitle">Проєкт LAB</h2>
+                  <p class="portfolio__text">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="element-portfolio">
-              <a href="#" class="portfolio-link link"
-                ><div class="portfolio-description">
+            <li class="portfolio__element">
+              <a href="#" class="portfolio__link link"
+                ><div class="portfolio__description">
                   <img
                     src="./imeg/image-portfolio/img9.jpg"
                     alt="відкритий ноутбук"
@@ -265,15 +265,15 @@
                     height="294"
                     class="imeg"
                   />
-                  <p class="card-text">
+                  <p class="card__text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
                     отримати вичерпні відомості про компанію чи приватну особу.
                   </p>
                 </div>
-                <div class="portfolio-content">
-                  <h2 class="portfolio-subtitle">Growing Business</h2>
-                  <p class="portfolio-text">Додаток</p>
+                <div class="portfolio__content">
+                  <h2 class="portfolio__subtitle">Growing Business</h2>
+                  <p class="portfolio__text">Додаток</p>
                 </div>
               </a>
             </li>
@@ -282,14 +282,14 @@
       </section>
     </main>
     <footer class="cellar">
-      <div class="container web-down">
+      <div class="container web__down">
         <div>
-          <a href="./index.html" class="logo link logo-cellar"
-            ><span class="logo-web">Web</span>Studio</a
+          <a href="./index.html" class="logo link logo__cellar"
+            ><span class="logo__web">Web</span>Studio</a
           >
           <address>
             <ul class="list">
-              <li class="adress-list">
+              <li class="adress__list">
                 <a
                   href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
                   target="_blank"
@@ -298,62 +298,63 @@
                   >м. Київ, пр-т Лесі Українки, 26</a
                 >
               </li>
-              <li class="adress-list">
-                <a href="mailto:info@devstudio.com" class="adress-link link"
+              <li class="adress__list">
+                <a href="mailto:info@devstudio.com" class="adress__link link"
                   >info@devstudio.com</a
                 >
               </li>
-              <li class="adress-list">
-                <a href="tel:+380961111111" class="adress-link link"
+              <li class="adress__list">
+                <a href="tel:+380961111111" class="adress__link link"
                   >+38 096 111 11 11</a
                 >
               </li>
             </ul>
           </address>
         </div>
-        <div class="cellar-foot">
-          <p class="cellar-title">приєднуйтесь</p>
-          <ul class="team-people list foot">
-            <li class="team-web foot">
-              <a href="" class="team-link foot"
-                ><svg class="team-icon-link foot" width="20" height="20">
+        <div class="cellar__foot">
+          <p class="cellar__title">приєднуйтесь</p>
+          <ul class="team__people list foot">
+            <li class="team__web foot">
+              <a href="" class="team__link foot"
+                ><svg class="team__icon foot" width="20" height="20">
                   <use href="./imeg/icons.svg#icon-instagram"></use></svg
               ></a>
             </li>
-            <li class="team-web foot">
-              <a href="" class="team-link foot"
-                ><svg class="team-icon-link foot" width="20" height="20">
+            <li class="team__web foot">
+              <a href="" class="team__link foot"
+                ><svg class="team__icon foot" width="20" height="20">
                   <use href="./imeg/icons.svg#icon-twitter"></use></svg
               ></a>
             </li>
-            <li class="team-web foot">
-              <a href="" class="team-link foot"
-                ><svg class="team-icon-link foot" width="20" height="20">
+            <li class="team__web foot">
+              <a href="" class="team__link foot"
+                ><svg class="team__icon foot" width="20" height="20">
                   <use href="./imeg/icons.svg#icon-facebook"></use></svg
               ></a>
             </li>
-            <li class="team-web foot">
-              <a href="" class="team-link foot"
-                ><svg class="team-icon-link foot" width="20" height="20">
+            <li class="team__web foot">
+              <a href="" class="team__link foot"
+                ><svg class="team__icon foot" width="20" height="20">
                   <use href="./imeg/icons.svg#icon-linkedin"></use></svg
               ></a>
             </li>
           </ul>
         </div>
         <div>
-          <h2 class="footer-form">Підпишіться на розсилку</h2>
-          <form class="footer-cellar" name="footer-form-contact">
-            <label class="footer-label"
+          <h2 class="footer__form">Підпишіться на розсилку</h2>
+          <form class="footer__cellar" name="footer-form-contact">
+            <label class="footer__label"
               ><input
-                class="footer-input"
+                class="footer__input"
                 type="email"
                 name="footer-form"
                 placeholder="E-mail"
             /></label>
-            <button type="submit" class="footer-form-btn hero-button">
-              Підписатися<svg class="form-icon-btn" width="24" height="24">
+            <button type="submit" class="hero__button">
+              Підписатися<svg class="form__icon__btn" width="24" height="24">
                 <use href="./imeg/icons.svg#icon-icon-send"></use>
-              </svg></button>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
