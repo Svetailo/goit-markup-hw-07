@@ -18,13 +18,18 @@ letter-spacing: 0.02em;
 color: var(--second-text-color);
 fill: var(--second-text-color);
 padding: 32px 0;
+
+&:hover,
+&:focus {color: var(--button-primary-background-color);
+fill: var(--accent-text-color);}
+
 }
 
 
 
-.auth__link:hover,
-.auth__link:focus {color: var(--button-primary-background-color);
-fill: var(--accent-text-color);}
+// .auth__link:hover,
+// .auth__link:focus {color: var(--button-primary-background-color);
+// fill: var(--accent-text-color);}
 
  
 

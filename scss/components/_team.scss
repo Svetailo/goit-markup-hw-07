@@ -47,21 +47,33 @@ color: var(--second-text-color);}
   /* color: tomato; */
 fill: var(--color-link-web);
 transition: background-color 250ms var(--cubic);
+
+&:hover,
+&:focus{
+  background-color: var(--button-primary-background-color);
+}
+
 }
 
 .team__icon{
 transition: fill 250ms var(--cubic);
-}
 
-.team__link:hover,
-.team__link:focus{
-  background-color: var(--button-primary-background-color);
-}
-
-.team__link:hover .team__icon,
-.team__link:focus .team__icon{
+.team__link:hover &,
+.team__link:focus &{
 fill: var(--primary-background-color);
 }
+
+}
+
+// .team__link:hover,
+// .team__link:focus{
+//   background-color: var(--button-primary-background-color);
+// }
+
+// .team__link:hover .team__icon,
+// .team__link:focus .team__icon{
+// fill: var(--primary-background-color);
+// }
 .team__people{
   display: flex;
   justify-content: center;

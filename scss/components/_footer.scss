@@ -1,6 +1,4 @@
-.logo__cellar{
-    width: fit-content;
-    margin-bottom: 20px;}
+
   
   
   .cellar{
@@ -37,23 +35,39 @@
     line-height: 1.71;
     margin-top: 20px;
     transition: color 250ms var(--cubic);
-    color: var(--white-text-color)}
+    color: var(--white-text-color);
+  
+    &:hover,
+    &:focus{color: var(--accent-text-color);}
+  
+  }
   
   .adress__link{font-style: normal;
       font-size: 14px;
       line-height: 1.71;
       transition: color 250ms var(--cubic);
-      color: var(--footer-link-color);}
+      color: var(--footer-link-color);
+    
+      &:hover,
+      &:focus{color: var(--accent-text-color);}
+
+    }
   
-    .adress__list{margin-bottom: 9px;}
+    .adress__list{margin-bottom: 9px;
+    
+      &:nth-child(3) {
+        margin-bottom: 0px;
+      }
+
+    }
   
     
-  .adress__list:nth-child(3) {
-    margin-bottom: 0px;
-  }
+  // .adress__list:nth-child(3) {
+  //   margin-bottom: 0px;
+  // }
   
-  .adress__link:hover,
-  .adress__link:focus{color: var(--accent-text-color);}
+  // .adress__link:hover,
+  // .adress__link:focus{color: var(--accent-text-color);}
   
-  .adress:hover,
-  .adress:focus{color: var(--accent-text-color);}
+  // .adress:hover,
+  // .adress:focus{color: var(--accent-text-color);}
