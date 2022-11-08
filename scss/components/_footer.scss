@@ -1,0 +1,59 @@
+.logo__cellar{
+    width: fit-content;
+    margin-bottom: 20px;}
+  
+  
+  .cellar{
+    background-color: var(--footer-background-color);
+    padding:  60px 15px;
+  }
+  
+    .cellar__title{
+      font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--primary-background-color);
+    margin-bottom: 20px;
+    }
+    .team-icon__link.foot{
+      fill: var(--primary-background-color);
+    }
+  
+    .team__web.foot{
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 50%;
+    }
+    
+  
+  .web__down{display: flex;
+    gap: 70px;
+    align-items: baseline;
+    }
+  
+  
+  .adress{ font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    margin-top: 20px;
+    transition: color 250ms var(--cubic);
+    color: var(--white-text-color)}
+  
+  .adress__link{font-style: normal;
+      font-size: 14px;
+      line-height: 1.71;
+      transition: color 250ms var(--cubic);
+      color: var(--footer-link-color);}
+  
+    .adress__list{margin-bottom: 9px;}
+  
+    
+  .adress__list:nth-child(3) {
+    margin-bottom: 0px;
+  }
+  
+  .adress__link:hover,
+  .adress__link:focus{color: var(--accent-text-color);}
+  
+  .adress:hover,
+  .adress:focus{color: var(--accent-text-color);}
