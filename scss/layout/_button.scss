@@ -3,7 +3,7 @@
 //  }
 
 
-.hero__button{display: flex;
+.button{display: flex;
   align-items: center;
   justify-content: center;
    font-family: inherit;
@@ -11,6 +11,7 @@
     font-size: 16px;
     line-height: 1.88;
     height: 50px;
+    min-width: 200px;
     cursor: pointer;
     padding: 10px 32px;
     margin-left: auto;

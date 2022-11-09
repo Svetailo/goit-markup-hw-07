@@ -124,36 +124,4 @@
   //   background-color: var(--accent-text-color);
   // }
   
-  .terms__link{
-    margin-left: 7px;
-    color: var(--accent-text-color);
-  }
-  
-  
-  .footer__form{
-    font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-  color: var(--primary-background-color);
-  margin-bottom: 20px;
-  }
-  .footer__cellar{
-    display: flex;
-    gap: 12px;
-  }
-  .footer__input{
-   width: 358px;
-   height: 50px;
-   padding: 15px 16px;
-   color: color rgba(255, 255, 255, 0.6);
-   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-   border: 1px solid rgba(255, 255, 255, 0.3);
-   border-radius: 4px;
-   background-color: var(--footer-background-color);}
-  
-  .form__icon__btn{
-    margin-left: 10px;
-    fill: var(--primary-background-color);
-  }
   

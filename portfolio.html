@@ -16,7 +16,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
     <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
-    <link rel="stylesheet" href="./css/main.min.css"/>
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header class="header">
@@ -27,12 +27,14 @@
           >
           <ul class="list nav">
             <li class="nav__item">
-              <a href="./index.html" class="nav__link link"
-                >Студія</a
-              >
+              <a href="./index.html" class="nav__link link">Студія</a>
             </li>
             <li class="nav__item">
-              <a href="./portfolio.html" class="nav__link link nav__link--current">Портфоліо</a>
+              <a
+                href="./portfolio.html"
+                class="nav__link link nav__link--current"
+                >Портфоліо</a
+              >
             </li>
             <li class="nav__item">
               <a href="" class="nav__link link">Контакти</a>
@@ -61,19 +63,19 @@
       <section class="portfolio">
         <div class="section">
           <h1 class="visually-hidden">Портфоліо</h1>
-          <ul class="list portfolio__btn">
-            <li><button type="button" class="portfolio__button">Усі</button></li>
+          <ul class="filter list">
+            <li><button type="button" class="filter__button">Усі</button></li>
             <li>
-              <button type="button" class="portfolio__button">Веб-сайти</button>
+              <button type="button" class="filter__button">Веб-сайти</button>
             </li>
             <li>
-              <button type="button" class="portfolio__button">Додатки</button>
+              <button type="button" class="filter__button">Додатки</button>
             </li>
             <li>
-              <button type="button" class="portfolio__button">Дизайн</button>
+              <button type="button" class="filter__button">Дизайн</button>
             </li>
             <li>
-              <button type="button" class="portfolio__button">Маркетинг</button>
+              <button type="button" class="filter__button">Маркетинг</button>
             </li>
           </ul>
 
@@ -207,7 +209,9 @@
                   </p>
                 </div>
                 <div class="portfolio__content">
-                  <h2 class="portfolio__subtitle">Inspiration has no Borders</h2>
+                  <h2 class="portfolio__subtitle">
+                    Inspiration has no Borders
+                  </h2>
                   <p class="portfolio__text">Веб-сайт</p>
                 </div>
               </a>
@@ -282,7 +286,7 @@
         </div>
       </section>
     </main>
-    <footer class="cellar">
+    <footer class="footer">
       <div class="container web__down">
         <div>
           <a href="./index.html" class="logo link logo__cellar"
@@ -313,36 +317,36 @@
           </address>
         </div>
         <div class="cellar__foot">
-          <p class="cellar__title">приєднуйтесь</p>
-          <ul class="team__people list foot">
-            <li class="team__web foot">
-              <a href="" class="team__link foot"
-                ><svg class="team__icon foot" width="20" height="20">
+          <h2 class="footer-title">приєднуйтесь</h2>
+          <ul class="socials list">
+            <li class="socials__item">
+              <a href="" class="socials__link socials__link--dark"
+                ><svg class="socials__icon" width="20" height="20">
                   <use href="./imeg/icons.svg#icon-instagram"></use></svg
               ></a>
             </li>
-            <li class="team__web foot">
-              <a href="" class="team__link foot"
-                ><svg class="team__icon foot" width="20" height="20">
+            <li class="socials__item">
+              <a href="" class="socials__link socials__link--dark"
+                ><svg class="socials__icon" width="20" height="20">
                   <use href="./imeg/icons.svg#icon-twitter"></use></svg
               ></a>
             </li>
-            <li class="team__web foot">
-              <a href="" class="team__link foot"
-                ><svg class="team__icon foot" width="20" height="20">
+            <li class="socials__item">
+              <a href="" class="socials__link socials__link--dark"
+                ><svg class="socials__icon" width="20" height="20">
                   <use href="./imeg/icons.svg#icon-facebook"></use></svg
               ></a>
             </li>
-            <li class="team__web foot">
-              <a href="" class="team__link foot"
-                ><svg class="team__icon foot" width="20" height="20">
+            <li class="socials__item">
+              <a href="" class="socials__link socials__link--dark"
+                ><svg class="socials__icon" width="20" height="20">
                   <use href="./imeg/icons.svg#icon-linkedin"></use></svg
               ></a>
             </li>
           </ul>
         </div>
-        <div>
-          <h2 class="footer__form">Підпишіться на розсилку</h2>
+        <div class="footer-form">
+          <h2 class="footer-title">Підпишіться на розсилку</h2>
           <form class="footer__cellar" name="footer-form-contact">
             <label class="footer__label"
               ><input
@@ -351,7 +355,7 @@
                 name="footer-form"
                 placeholder="E-mail"
             /></label>
-            <button type="submit" class="hero__button">
+            <button type="submit" class="button">
               Підписатися<svg class="form__icon__btn" width="24" height="24">
                 <use href="./imeg/icons.svg#icon-icon-send"></use>
               </svg>

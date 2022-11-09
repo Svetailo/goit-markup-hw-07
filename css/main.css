@@ -85,7 +85,7 @@ ul {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.hero__button {
+.button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -100,6 +100,7 @@ ul {
   font-size: 16px;
   line-height: 1.88;
   height: 50px;
+  min-width: 200px;
   cursor: pointer;
   padding: 10px 32px;
   margin-left: auto;
@@ -114,7 +115,7 @@ ul {
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
-.hero__button:hover, .hero__button:focus {
+.button:hover, .button:focus {
   background-color: var(--secondary-background-color-hero-butto);
 }
 
@@ -347,7 +348,7 @@ ul {
   gap: 30px;
 }
 
-.activity__title {
+.title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -402,7 +403,7 @@ ul {
   gap: 30px;
 }
 
-.team__title {
+.title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -426,11 +427,11 @@ ul {
   color: var(--second-text-color);
 }
 
-.team__p {
+.team__text-container {
   padding: 30px;
 }
 
-.team__link {
+.socials__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -448,19 +449,24 @@ ul {
   -webkit-transition: background-color 250ms var(--cubic);
   transition: background-color 250ms var(--cubic);
 }
-.team__link:hover, .team__link:focus {
+.socials__link:hover, .socials__link:focus {
   background-color: var(--button-primary-background-color);
 }
 
-.team__icon {
+.socials__link--dark {
+  fill: var(--primary-background-color);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.socials__icon {
   -webkit-transition: fill 250ms var(--cubic);
   transition: fill 250ms var(--cubic);
 }
-.team__link:hover .team__icon, .team__link:focus .team__icon {
+.socials__link:hover .socials__icon, .socials__link:focus .socials__icon {
   fill: var(--primary-background-color);
 }
 
-.team__people {
+.socials {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -470,7 +476,7 @@ ul {
   gap: 10px;
 }
 
-.clients__title {
+.title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -523,12 +529,16 @@ ul {
   height: 92px;
 }
 
-.cellar {
+.footer {
   background-color: var(--footer-background-color);
-  padding: 60px 15px;
+  padding: 60px;
 }
 
-.cellar__title {
+.footer-form {
+  margin-left: auto;
+}
+
+.footer-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -537,13 +547,8 @@ ul {
   margin-bottom: 20px;
 }
 
-.team-icon__link.foot {
+.team-icon__link {
   fill: var(--primary-background-color);
-}
-
-.team__web.foot {
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
 }
 
 .web__down {
@@ -586,6 +591,44 @@ ul {
 }
 .adress__list:nth-child(3) {
   margin-bottom: 0px;
+}
+
+.terms__link {
+  margin-left: 7px;
+  color: var(--accent-text-color);
+}
+
+.footer-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--primary-background-color);
+  margin-bottom: 20px;
+}
+
+.footer__cellar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 12px;
+}
+
+.footer__input {
+  width: 358px;
+  height: 50px;
+  padding: 15px 16px;
+  color: color rgba(255, 255, 255, 0.6);
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  background-color: var(--footer-background-color);
+}
+
+.form__icon__btn {
+  margin-left: 10px;
+  fill: var(--primary-background-color);
 }
 
 .backdrop {
@@ -779,44 +822,6 @@ ul {
   background-color: var(--accent-text-color);
 }
 
-.terms__link {
-  margin-left: 7px;
-  color: var(--accent-text-color);
-}
-
-.footer__form {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-  color: var(--primary-background-color);
-  margin-bottom: 20px;
-}
-
-.footer__cellar {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 12px;
-}
-
-.footer__input {
-  width: 358px;
-  height: 50px;
-  padding: 15px 16px;
-  color: color rgba(255, 255, 255, 0.6);
-  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 4px;
-  background-color: var(--footer-background-color);
-}
-
-.form__icon__btn {
-  margin-left: 10px;
-  fill: var(--primary-background-color);
-}
-
 .portfolio {
   width: 1200px;
   padding-left: 15px;
@@ -839,7 +844,7 @@ ul {
   color: var(--second-text-color);
 }
 
-.portfolio__btn {
+.filter {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -874,7 +879,7 @@ ul {
   overflow: hidden;
 }
 
-.portfolio__button {
+.filter__button {
   font-family: inherit;
   font-style: normal;
   font-weight: 500;
@@ -890,7 +895,7 @@ ul {
   color: var(--primaty-text-color);
   background-color: var(--button-secondary-background-color);
 }
-.portfolio__button:hover, .portfolio__button:focus {
+.filter__button:hover, .filter__button:focus {
   color: var(--primary-background-color);
   background-color: var(--button-primary-background-color);
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
